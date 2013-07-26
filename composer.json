@@ -1,0 +1,28 @@
+{
+    "name": "garyburge/yii-curl",
+    "description": "A Yii wrapper for curl",
+    "keywords": ["yii", "module", "curle"],
+    "homepage": "https://github.com/garyburge/yii-curl",
+    "type": "yii-extension",
+    "license": "BSD-3-Clause",
+    "version": "dev-master",
+    "authors": [
+        {
+          "name": "Charles Pick",
+          "email": "charles.pick@gmail.com"
+        },
+        {
+          "name": "Gary Burge",
+          "email": "garyburge@garyburge.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "yii-curl": ""
+        }
+    },
+    "require": {
+        "php": ">=5.1.0",
+        "yiisoft/yii": "1.1.*"
+    }
+}
